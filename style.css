@@ -399,7 +399,7 @@ body.loaded #loading-screen{opacity:0;pointer-events:none;}
 @media (max-width:800px){.project-wrap{grid-template-columns:1fr;}}
 .project-text .mc-btn{margin-top:10px;}
 .project-stats{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
-.stat-block{background:rgba(0,0,0,.06);border:3px solid rgba(0,0,0,.15);padding:16px;text-align:center;color:#fff;}
+.stat-block{background:rgba(0,0,0,.76);border:3px solid rgba(0,0,0,.15);padding:16px;text-align:center;color:#fff;}
 .stat-block .num{display:block;font-size:20px;color:var(--diamond);margin-bottom:6px;}
 .stat-block .lbl{font-size:16px;color:#cde;}
 
