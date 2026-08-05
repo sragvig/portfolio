@@ -231,7 +231,7 @@ Error generating stack: `+e.message+`
         overflow-hidden
       `,children:[(0,H.jsx)(`img`,{src:e.image,alt:e.title,className:`
           w-full
-          h-64
+          h-55
           object-cover
         `}),(0,H.jsxs)(`div`,{className:`p-6`,children:[(0,H.jsx)(`div`,{className:`flex flex-wrap gap-2`,children:e.category.map(e=>(0,H.jsx)(`span`,{className:`
                   text-xs
@@ -240,7 +240,7 @@ Error generating stack: `+e.message+`
                   rounded-full
                   border
                   border-white/20
-                `,children:e},e))}),(0,H.jsx)(`h2`,{className:`text-2xl font-semibold mt-4`,children:e.title}),(0,H.jsx)(`p`,{className:`text-gray-500 mt-2`,children:e.date}),(0,H.jsx)(`button`,{onClick:()=>n(!t),className:`
+                `,children:e},e))}),(0,H.jsx)(`h2`,{className:`text-xl font-semibold mt-4`,children:e.title}),(0,H.jsx)(`p`,{className:`text-gray-500 mt-2`,children:e.date}),(0,H.jsx)(`button`,{onClick:()=>n(!t),className:`
             mt-5
             text-sm
             underline
@@ -259,7 +259,7 @@ Error generating stack: `+e.message+`
                 border-white/10
                 hover:scale-105
                 transition
-              `})},e.id))})}var Qu=[{id:1,title:`Girl Scouts Gold Award`,date:`2025`,category:[`Community`,`Software`],image:`/awards/goldaward.png`,details:`Recognized for creating ThisIsFine, a gamified disaster preparedness platform used to teach emergency readiness through interactive experiences.`,link:``},{id:2,title:`NCWIT Aspirations in Computing Regional Winner`,date:`2025`,category:[`Software`,`Scholarship`],image:`/awards/ncwit.png`,details:`Award recognizing achievement and leadership in computing, technology innovation, and community impact.`,link:``},{id:3,title:`AP Scholar with Distinction`,date:`2025`,category:[`Scholarship`],image:`/awards/ap.png`,details:`Academic recognition based on achievement in advanced placement coursework.`,link:``}],$u=[{id:1,title:`Featured Article`,image:`/news/article1.png`,link:``},{id:2,title:`Community Spotlight`,image:`/news/article2.png`,link:``},{id:3,title:`Technology Feature`,image:`/news/article3.png`,link:``}];function ed(){let[e,t]=(0,y.useState)(`All`),n=[`All`,`Community`,`Software`,`Scholarship`],r=Qu.filter(t=>e===`All`||t.category.includes(e));return(0,H.jsxs)(`section`,{className:`
+              `})},e.id))})}var Qu=[{id:1,title:`Girl Scouts Gold Award`,date:`2025`,category:[`Community`,`Software`],image:`/awards/goldaward.png`,details:`Recognized for creating ThisIsFine, a gamified disaster preparedness platform used to teach emergency readiness through interactive experiences.`,link:``},{id:2,title:`NCWIT Aspirations in Computing Regional Winner`,date:`2025`,category:[`Software`,`Scholarship`],image:`/awards/ncwit.png`,details:`Award recognizing achievement and leadership in computing, technology innovation, and community impact.`,link:``},{id:3,title:`AP Scholar with Distinction`,date:`2025`,category:[`Scholarship`],image:`/awards/ap.png`,details:`Academic recognition based on achievement in advanced placement coursework.`,link:``}],$u=[{id:1,title:`Featured Article`,image:`/news/article1.png`,link:``},{id:2,title:`Community Spotlight`,image:`/news/article2.png`,link:``},{id:3,title:`Technology Feature`,image:`/news/article3.png`,link:``}];function ed(){let[e,t]=(0,y.useState)(`All`),n=[`All`,`Software`,`Community`,`Scholarship`],r=Qu.filter(t=>e===`All`||t.category.includes(e));return(0,H.jsxs)(`section`,{className:`
       relative
       min-h-screen
       w-full
@@ -282,9 +282,9 @@ Error generating stack: `+e.message+`
               `,children:n},n))}),(0,H.jsx)(uu.div,{layout:!0,className:`
           grid
           grid-cols-1
-          md:grid-cols-2
+          md:grid-cols-4
           gap-8
-          max-w-6xl
+          max-w-4xl
           mx-auto
         `,children:r.map(e=>(0,H.jsx)(uu.div,{layout:!0,initial:{opacity:0,y:20},animate:{opacity:1,y:0},children:(0,H.jsx)(Xu,{award:e})},e.id))}),(0,H.jsxs)(`div`,{className:`
         max-w-6xl
