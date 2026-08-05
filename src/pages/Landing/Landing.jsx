@@ -187,7 +187,7 @@ function Landing() {
 
 
                 <img
-                src="/profile.png"
+                src="/portfolio/profile.png"
                 alt="Sragvi Gireesh"
                 className="relative w-90 h-100 object-cover rounded-[2rem] border border-white/20"
                 />

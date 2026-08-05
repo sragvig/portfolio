@@ -18,8 +18,8 @@ function Awards() {
 
   const categories = [
     "All",
-    "Community",
     "Software",
+    "Community",
     "Scholarship"
   ];
 
@@ -116,9 +116,9 @@ function Awards() {
         className="
           grid
           grid-cols-1
-          md:grid-cols-2
+          md:grid-cols-4
           gap-8
-          max-w-6xl
+          max-w-4xl
           mx-auto
         "
 

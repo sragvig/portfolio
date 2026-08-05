@@ -27,7 +27,7 @@ function AwardCard({ award }) {
 
         className="
           w-full
-          h-64
+          h-55
           object-cover
         "
 
@@ -71,7 +71,7 @@ function AwardCard({ award }) {
 
 
 
-        <h2 className="text-2xl font-semibold mt-4">
+        <h2 className="text-xl font-semibold mt-4">
 
           {award.title}
 
