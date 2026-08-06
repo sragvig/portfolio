@@ -166,7 +166,7 @@ Error generating stack: `+e.message+`
                 ${e===n?`bg-white text-black`:`border border-white/20 hover:bg-white hover:text-black`}
 
               `,children:n},n))}),(0,H.jsx)(uu.div,{layout:!0,className:`
-          max-w-5xl
+          max-w-6xl
           mx-auto
           space-y-8
         `,children:n.map(e=>(0,H.jsx)(uu.div,{layout:!0,initial:{opacity:0,y:20},animate:{opacity:1,y:0},transition:{duration:.4},children:(0,H.jsx)(Ku,{experience:e})},e.id))}),(0,H.jsx)(`button`,{onClick:()=>window.scrollTo({top:0,behavior:`smooth`}),className:`
