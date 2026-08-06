@@ -75,25 +75,33 @@ Error generating stack: `+e.message+`
                 text-xs
                 border
                 border-white/20
-              `,children:e},e))}),(0,H.jsx)(`h2`,{className:`text-3xl font-semibold`,children:e.title}),(0,H.jsx)(`p`,{className:`text-sm text-gray-500 mt-1`,children:e.date}),(0,H.jsx)(`p`,{className:`text-gray-300 mt-1 leading-relaxed`,children:e.description}),(0,H.jsxs)(`div`,{className:`flex flex-wrap items-center gap-2 mt-8`,children:[(0,H.jsx)(`h3`,{className:`font-medium`,children:`Tech Stack:`}),e.tech.map(e=>(0,H.jsxs)(`span`,{className:`text-sm text-gray-400`,children:[`#`,e]},e))]}),(0,H.jsxs)(`div`,{className:`flex gap-3 mt-4`,children:[e.links.github&&(0,H.jsx)(`a`,{href:e.links.github,target:`_blank`,rel:`noopener noreferrer`,className:`
-                px-5
-                py-2
-                rounded-full
-                border
-                border-white/20
-              `,children:`GitHub`}),e.links.demo&&(0,H.jsx)(`a`,{href:e.links.demo,target:`_blank`,rel:`noopener noreferrer`,className:`
+              `,children:e},e))}),(0,H.jsx)(`h2`,{className:`text-3xl font-semibold`,children:e.title}),(0,H.jsx)(`p`,{className:`text-sm text-gray-500 mt-1`,children:e.date}),(0,H.jsx)(`p`,{className:`text-gray-300 mt-1 leading-relaxed`,children:e.description}),(0,H.jsxs)(`div`,{className:`flex flex-wrap items-center gap-2 mt-8`,children:[(0,H.jsx)(`h3`,{className:`font-medium`,children:`Tech Stack:`}),e.tech.map(e=>(0,H.jsx)(`span`,{className:`text-sm text-gray-400`,children:e},e))]}),(0,H.jsxs)(`div`,{className:`flex gap-3 mt-4`,children:[e.links.github&&(0,H.jsx)(`a`,{href:e.links.github,target:`_blank`,rel:`noopener noreferrer`,className:`
                 px-5
                 py-2
                 rounded-full
                 bg-white
                 text-black
-              `,children:`Demo`}),e.links.slides&&(0,H.jsx)(`a`,{href:e.links.slides,target:`_blank`,rel:`noopener noreferrer`,className:`
+                hover:bg-gray-200
+                transition
+              `,children:(0,H.jsxs)(`span`,{className:`flex items-center gap-2`,children:[`GitHub`,(0,H.jsx)(xu,{size:16})]})}),e.links.demo&&(0,H.jsx)(`a`,{href:e.links.demo,target:`_blank`,rel:`noopener noreferrer`,className:`
                 px-5
                 py-2
                 rounded-full
                 border
                 border-white/20
-              `,children:`Slides`})]})]})]})}var Z=[{id:1,title:`ThisIsFine: A Disaster Preparedness Game`,type:[`SWE`,`PM`],date:`2025`,description:`A gamified disaster preparedness app that teaches emergency response skills through interactive scenarios and community workshops.`,media:{type:`image`,src:`/portfolio/tif.png`},tech:[`FlutterFlow`,`Dart`,`Firebase`],links:{github:`https://github.com/`,demo:`https://thisisfineapp.my.canva.site/`,slides:``}},{id:2,title:`Sustainability Compliance Chatbot`,type:[`SWE`],date:`2025`,description:`AI chatbot helping small businesses understand and comply with sustainability regulations. Built using HTML & CSS to help businesses adopt eco-friendly practices and meet regulations. Suggestions drawn from Gemini API and a library of 50+ environmental regulations.`,media:{type:`image`,src:`/portfolio/bot.png`},tech:[`Java`,`HTML`,`CSS`,`Gemini API`],links:{github:``,demo:`https://www.canva.com/design/DAGtWme7q_U/QkyNZESwlPZxRAmrCm5-QQ/view?utm_content=DAGtWme7q_U&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hf9d6ad41b5#4`,slides:`https://canva.link/1eqo9iuwf9fus1f`}},{id:3,title:`FERN: Fertilizer Excess Runoff Negation`,type:[`SWE`],date:`2025`,description:`Led a team of 3 to develop a Streamlit app modeling fertilizer diffusion to mitigate eutrophication, using a random forest regression model and the Advection-Diffusion-Reaction equation to generate interactive soil management charts for farmers`,media:{type:`image`,src:`/portfolio/fern.png`},tech:[`Research`,`Strategy`],links:{github:`https://github.com/sragvig/fertilizer-spread-model`,demo:`https://www.canva.com/design/DAGeebcDhSc/T1uhFzll1UFc-7kgsNTfPg/view?utm_content=DAGeebcDhSc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb2b9a0121e#11`,slides:`https://canva.link/n1xv16imarpe7uw`}}];function Gu(){let[e,t]=(0,y.useState)(`All`),n=Z.filter(t=>e===`All`||t.type.includes(e));return(0,H.jsxs)(`section`,{className:`relative min-h-screen w-full px-16 py-24`,children:[(0,H.jsx)(Hu,{children:`Projects`}),(0,H.jsx)(`div`,{className:`flex justify-center gap-4 mb-12`,children:[`All`,`SWE`,`PM`].map(n=>(0,H.jsx)(`button`,{onClick:()=>t(n),className:`
+                hover:bg-white
+                hover:text-black
+                transition
+              `,children:(0,H.jsxs)(`span`,{className:`flex items-center gap-2`,children:[`Demo`,(0,H.jsx)(xu,{size:16})]})}),e.links.slides&&(0,H.jsx)(`a`,{href:e.links.slides,target:`_blank`,rel:`noopener noreferrer`,className:`
+                px-5
+                py-2
+                rounded-full
+                border
+                border-white/20
+                hover:bg-white
+                hover:text-black
+                transition
+              `,children:(0,H.jsxs)(`span`,{className:`flex items-center gap-2`,children:[`Slides`,(0,H.jsx)(xu,{size:16})]})})]})]})]})}var Z=[{id:1,title:`ThisIsFine: A Disaster Preparedness Game`,type:[`SWE`,`PM`],date:`2025`,description:`A gamified disaster preparedness app that teaches emergency response skills through interactive scenarios and community workshops.`,media:{type:`image`,src:`/portfolio/tif.png`},tech:[`FlutterFlow,`,`Dart,`,`Firebase`],links:{demo:`https://thisisfineapp.my.canva.site/`,github:`https://github.com/`,slides:``}},{id:2,title:`Sustainability Compliance Chatbot`,type:[`SWE`],date:`2025`,description:`AI chatbot helping small businesses understand and comply with sustainability regulations. Built using HTML & CSS to help businesses adopt eco-friendly practices and meet regulations. Suggestions drawn from Gemini API and a library of 50+ environmental regulations.`,media:{type:`image`,src:`/portfolio/bot.png`},tech:[`Java,`,`HTML,`,`CSS,`,`Gemini API`],links:{github:``,demo:`https://www.canva.com/design/DAGtWme7q_U/QkyNZESwlPZxRAmrCm5-QQ/view?utm_content=DAGtWme7q_U&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hf9d6ad41b5#4`,slides:`https://canva.link/1eqo9iuwf9fus1f`}},{id:3,title:`FERN: Fertilizer Excess Runoff Negation`,type:[`SWE`],date:`2025`,description:`Led a team of 3 to develop a Streamlit app modeling fertilizer diffusion to mitigate eutrophication, using a random forest regression model and the Advection-Diffusion-Reaction equation to generate interactive soil management charts for farmers`,media:{type:`image`,src:`/portfolio/fern.png`},tech:[`StreamLit,`,`GitHub`],links:{demo:`https://www.canva.com/design/DAGeebcDhSc/T1uhFzll1UFc-7kgsNTfPg/view?utm_content=DAGeebcDhSc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb2b9a0121e#11`,github:`https://github.com/sragvig/fertilizer-spread-model`,slides:`https://canva.link/n1xv16imarpe7uw`}}];function Gu(){let[e,t]=(0,y.useState)(`All`),n=Z.filter(t=>e===`All`||t.type.includes(e));return(0,H.jsxs)(`section`,{className:`relative min-h-screen w-full px-16 py-24`,children:[(0,H.jsx)(Hu,{children:`Projects`}),(0,H.jsx)(`div`,{className:`flex justify-center gap-4 mb-12`,children:[`All`,`SWE`,`PM`].map(n=>(0,H.jsx)(`button`,{onClick:()=>t(n),className:`
               px-6
               py-2
               rounded-full
@@ -229,21 +237,21 @@ Error generating stack: `+e.message+`
         overflow-hidden
       `,children:[(0,H.jsx)(`img`,{src:e.image,alt:e.title,className:`
           w-full
-          h-55
+          h-40
           object-cover
-        `}),(0,H.jsxs)(`div`,{className:`p-6`,children:[(0,H.jsx)(`div`,{className:`flex flex-wrap gap-2`,children:e.category.map(e=>(0,H.jsx)(`span`,{className:`
+        `}),(0,H.jsxs)(`div`,{className:`p-6`,children:[(0,H.jsx)(`div`,{className:`flex flex-wrap gap-1`,children:e.category.map(e=>(0,H.jsx)(`span`,{className:`
                   text-xs
                   px-3
                   py-1
                   rounded-full
                   border
                   border-white/20
-                `,children:e},e))}),(0,H.jsx)(`h2`,{className:`text-xl font-semibold mt-4`,children:e.title}),(0,H.jsx)(`p`,{className:`text-gray-500 mt-2`,children:e.date}),(0,H.jsx)(`button`,{onClick:()=>n(!t),className:`
+                `,children:e},e))}),(0,H.jsx)(`h2`,{className:`text-9xs font-semibold mt-3`,children:e.title}),(0,H.jsx)(`p`,{className:`text-gray-500 mt-1`,children:e.date}),(0,H.jsx)(`button`,{onClick:()=>n(!t),className:`
             mt-5
             text-sm
             underline
           `,children:t?`Hide Details`:`View Details`}),t&&(0,H.jsx)(`p`,{className:`
-              mt-4
+              mt-2
               text-gray-300
               leading-relaxed
             `,children:e.details})]})]})}function $u({news:e}){return(0,H.jsx)(`div`,{className:`
