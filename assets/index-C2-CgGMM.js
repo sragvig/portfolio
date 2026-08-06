@@ -289,8 +289,8 @@ Error generating stack: `+e.message+`
           grid
           grid-cols-1
           md:grid-cols-4
-          gap-8
-          max-w-4xl
+          gap-4
+          max-w-5xl
           mx-auto
         `,children:r.map(e=>(0,H.jsx)(uu.div,{layout:!0,initial:{opacity:0,y:20},animate:{opacity:1,y:0},children:(0,H.jsx)(Qu,{award:e})},e.id))}),(0,H.jsxs)(`div`,{className:`
         max-w-6xl
