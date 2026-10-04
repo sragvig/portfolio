@@ -3,19 +3,19 @@ const leadership = [
   {
     id: 1,
 
-    title: "Girl Bytes",
+    title: "UT Austin Computer Science Summer Academy for Women",
 
     category: [
-      "Leadership",
-      "Community"
+      "Program",
+      "Technology"
     ],
 
-    date: "2023 - Present",
+    date: "June 2025",
 
     description:
-      "Coding education initiative focused on increasing access to computer science education for young students. Led Python, Java, HTML, and Scratch workshops while managing volunteer instructors.",
+      "1 of ~60 nationwide selected for this all-expenses-paid week-long experience. Coded a Tetris Light Show in C++ with my team; awarded Most Algorithmically Challenging Program.",
 
-    image: "/leadership/girlbytes.png",
+    image: "/portfolio/tetris.png",
 
     links: {
       website: "",
@@ -28,19 +28,20 @@ const leadership = [
   {
     id: 2,
 
-    title: "Girl Scouts Gold Award — ThisIsFine Disaster Preparedness App",
+    title: "Civics Unplugged: Civic Innovation Academy at UCLA",
 
     category: [
+      "Leadership",
       "Community",
-      "Technology"
+      "Program"
     ],
 
-    date: "2025",
+    date: "July 2025",
 
     description:
-      "Created a gamified disaster preparedness platform teaching students emergency response skills through interactive scenarios, reaching thousands of users through workshops and partnerships.",
+      "1 of 25 nationwide selected; week-long all-expenses-paid program focused on climate innovation post-LA Fires. Worked with political officials on final presentations; my group earned 3rd place for a presentation on Post-Disaster Housing Affordability.",
 
-    image: "/leadership/thisisfine.png",
+    image: "/portfolio/cia.png",
 
     links: {
       website: "",
@@ -53,19 +54,21 @@ const leadership = [
   {
     id: 3,
 
-    title: "Civic Innovation Academy",
+    title: "#HalftheStory Digital Civics Academy",
 
     category: [
+      "Leadership",
+      "Community",
       "Program",
-      "Innovation"
+      "Technology"
     ],
 
-    date: "2025",
+    date: "July 2026",
 
     description:
-      "Selected participant in a civic technology program focused on developing solutions for community challenges.",
+      "1 of 110+ youth leaders across 60+ cities to participate in a week-long immersive program focused on ethical technology leadership, digital advocacy, and storytelling. Will train in activism and policy techniques to drive change around digital wellbeing and AI.",
 
-    image: "/leadership/civic.png",
+    image: "/portfolio/dca.png",
 
     links: {
       website: ""

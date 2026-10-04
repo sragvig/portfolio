@@ -12,7 +12,7 @@ import PageTitle from "./PageTitle";
 const pages = [
 
   {
-    name: "Landing",
+    name: "About Me",
     component: Landing
   },
 
@@ -167,7 +167,7 @@ function SlideContainer() {
           }}
 
           transition={{
-            duration:0.4
+            duration:0
           }}
 
         >

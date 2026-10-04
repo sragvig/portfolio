@@ -1,56 +1,54 @@
 const work = [
-
   {
     id: 1,
 
-    company: "Sierra Digital Inc.",
+    company: "JPMorganChase",
 
-    role: "Enterprise AI Intern",
+    role: "Software Engineering Intern (Volunteer)",
 
     type: ["SWE"],
 
-    status: "Completed",
+    status: "In Progress",
 
-    dates: "June 2025 - August 2025",
+    dates: "June - August 2026",
 
     location: "Remote",
 
-    logo: "/companies/sierra.png",
+    logo: "/portfolio/jpmc.png",
 
     summary:
-      "Built an AI-powered sustainability compliance chatbot helping small businesses understand environmental regulations.",
+      "8-week internship developing an AI-powered Robo-Advisor web application. Served as Software Developer, Scrum Master, and Business Analyst. Built full-stack features using React, Flask, and Python, including stock prediction, watchlists, portfolio recommendations, and a risk profiling questionnaire. Developed and trained a Random Forest machine learning model on historical Yahoo Finance data using technical indicators to predict short-term stock movements, integrated backend APIs with the frontend, and designed risk-based ETF portfolio allocations.",
 
     links: {
-      website: "",
-      github: "",
-      demo: ""
+      website: "https://www.jpmorganchase.com/",
+      github: "https://github.com/sragvig/robo_advisor",
+      demo: "https://www.canva.com/design/DAHRiGr-X5k/R6R0xuCQdMS41Y6I40xrBg/watch?utm_content=DAHRiGr-X5k&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hc86e20e744"
     }
 
   },
 
-
   {
     id: 2,
 
-    company: "Future Company",
+    company: "YouthBuild PWC Externship",
 
-    role: "Software Engineering Intern",
+    role: "AI-Powered Nonprofit Consulting Extern",
 
-    type: ["SWE"],
+    type: ["SWE", "PM"],
 
-    status: "Upcoming",
+    status: "In Progress",
 
-    dates: "Summer 2026",
+    dates: "July 2026 - Present",
 
-    location: "Location",
+    location: "Remote",
 
-    logo: "/companies/company.png",
+    logo: "/portfolio/youthbuild.webp",
 
     summary:
-      "Placeholder description of upcoming work experience.",
+      "Used AI tools to analyze donor data and build donor matching recommendations for YouthBuild's fundraising strategy. Delivered findings via final client presentation, applying responsible AI practices under professional mentorship.",
 
     links: {
-      website: "",
+      website: "https://www.logo.dev/search/brands/jpmorganchase.com",
       github: "",
       demo: ""
     }
@@ -61,22 +59,22 @@ const work = [
   {
     id: 3,
 
-    company: "Product Management Experience",
+    company: "Civics Unplugged",
 
-    role: "Product Manager",
+    role: "Admissions Associate",
 
     type: ["PM"],
 
     status: "In Progress",
 
-    dates: "2025 - Present",
+    dates: "July 2026 - Present",
 
     location: "Remote",
 
-    logo: "/companies/company.png",
+    logo: "/portfolio/cu.png",
 
     summary:
-      "Placeholder product management experience focused on strategy, research, and user impact.",
+      "Built and owned the end-to-end admissions process for the Civic Innovators Fellowship, including designing application questions, rubric, and selecting a new platform to manage 1,200+ applicants. Led and trained a team of 4 interns to read and score submissions, and produced final demographic reports to guide leadership decisions.",
 
     links: {
       website: "",
@@ -84,7 +82,37 @@ const work = [
       demo: ""
     }
 
-  }
+  },
+
+
+  {
+    id: 4,
+
+    company: "Sierra Digital Inc.",
+
+    role: "Enterprise AI Intern",
+
+    type: ["SWE"],
+
+    status: "Completed",
+
+    dates: "June 2025 - July 2025",
+
+    location: "Houston, Texas",
+
+    logo: "/portfolio/Sierra.png",
+
+    summary:
+      "3-week internship. Built a Sustainability Compliance Chatbot using HTML & CSS to help businesses adopt eco-friendly practices and meet regulations. Suggestions drawn from a library of 50+ environmental regulations. Supported company research on SAP technologies.",
+
+    links: {
+      website: "",
+      github: "",
+      demo: ""
+    }
+
+  },
+
 
 ];
 

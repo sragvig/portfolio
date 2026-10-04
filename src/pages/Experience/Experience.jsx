@@ -52,7 +52,6 @@ function Experience() {
               className={`
                 px-6
                 py-2
-                rounded-full
                 transition
 
                 ${
@@ -85,7 +84,7 @@ function Experience() {
         layout
 
         className="
-          max-w-5xl
+          max-w-6xl
           mx-auto
           space-y-8
         "

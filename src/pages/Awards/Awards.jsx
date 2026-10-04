@@ -79,7 +79,6 @@ function Awards() {
               className={`
                 px-6
                 py-2
-                rounded-full
                 transition
 
                 ${
@@ -117,8 +116,8 @@ function Awards() {
           grid
           grid-cols-1
           md:grid-cols-4
-          gap-8
-          max-w-4xl
+          gap-4
+          max-w-5xl
           mx-auto
         "
 

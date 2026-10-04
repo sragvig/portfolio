@@ -1,6 +1,7 @@
 import { useState } from "react";
-import { FileText, X } from "lucide-react";
+import { ExternalLink, X } from "lucide-react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { Mail, Phone } from "lucide-react";
 import { motion } from "framer-motion";
 import PageTitle from "../../components/layout/PageTitle";
 
@@ -8,6 +9,7 @@ function Landing() {
 
   const [showContact, setShowContact] = useState(false);
   const [showCoursework, setShowCoursework] = useState(false);
+  const [copied, setCopied] = useState(false);
 
 
   return (
@@ -34,7 +36,7 @@ function Landing() {
 
           <div className="flex items-center gap-5">
 
-            <h1 className="text-7xl font-semibold tracking-tight">
+            <h1 className="text-8xl font-semibold tracking-tight">
               Sragvi
               <br />
               Gireesh
@@ -44,7 +46,7 @@ function Landing() {
             {/* Resume Icon */}
             <motion.a
 
-              href="/resume.pdf"
+              href="/portfolio/resume.pdf"
 
               target="_blank"
 
@@ -67,7 +69,7 @@ function Landing() {
             >
 
 
-              <FileText size={18}/>
+              <ExternalLink size={18}/>
 
 
               <span
@@ -97,9 +99,8 @@ function Landing() {
 
           <p className="mt-8 text-lg text-gray-400 leading-relaxed max-w-xl">
             I'm currently studying Computer Science at 
-            Texas A&M University. I enjoy work in human-centered 
-            technology, civic innovation, and building software 
-            that creates meaningful impact.
+            Texas A&M University. I enjoy work in AI/ML, backend, 
+            frontend, product, etc.
           </p>
 
 
@@ -231,7 +232,7 @@ function Landing() {
 
 
               <h2 className="text-3xl font-bold mb-6">
-                Contact
+                Contact Me
               </h2>
 
 
@@ -239,15 +240,23 @@ function Landing() {
               <div className="space-y-5">
 
 
-                <p>
-                  📧 email@example.com
+                <button
+                  onClick={() => {
+                    navigator.clipboard.writeText("sragvig123@gmail.com");
+                    setCopied(true);
+                    setTimeout(() => setCopied(false), 2000);
+                  }}
+                  className="flex items-center gap-3 hover:underline"
+                >
+                  <Mail size={18} />
+                  {copied ? "Copied!" : "sragvig123@gmail.com"}
+                </button>
+
+
+                <p className="flex items-center gap-3">
+                  <Phone size={18} />
+                  (713) 364-5786
                 </p>
-
-
-                <p>
-                  📱 (123) 456-7890
-                </p>
-
 
 
                 <a

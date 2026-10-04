@@ -3,7 +3,7 @@ const projects = [
   {
     id: 1,
 
-    title: "ThisIsFine Disaster Preparedness App",
+    title: "ThisIsFine: A Disaster Preparedness Game",
 
     type: ["SWE", "PM"],
 
@@ -14,32 +14,61 @@ const projects = [
 
     media: {
       type: "image",
-      src: "/projects/thisisfine.png"
+      src: "/portfolio/tif.png"
     },
 
     tech: [
-      "FlutterFlow",
-      "Dart",
+      "FlutterFlow,",
+      "Dart,",
       "Firebase"
     ],
 
-    components: [
-      "Mobile UI",
-      "Gamification",
-      "User Progress Tracking"
-    ],
 
     links: {
-      github: "https://github.com/",
       demo: "https://thisisfineapp.my.canva.site/",
+      github: "https://github.com/",
       slides: ""
     }
 
   },
 
-
   {
     id: 2,
+
+    title: "Robo-Advisor",
+
+    type: ["SWE"],
+
+    date: "July 2026",
+
+    description:
+      "Full-stack robo-advisor platform featuring stock prediction, portfolio analysis, watchlists, and stock comparison tools. Built with Random Forest model trained on historical market data to deliver personalized investment insights based on technical indicators and user risk tolerance."
+,
+
+    media: {
+      type: "image",
+      src: "/portfolio/robo.png"
+    },
+
+    tech: [
+      "Python,",
+      "Javascript,",
+      "CSS,",
+      "Flask,",
+      "React/Vite"
+    ],
+
+
+    links: {
+      github: "https://github.com/sragvig/robo_advisor",
+      demo: "https://www.canva.com/design/DAHRiGr-X5k/R6R0xuCQdMS41Y6I40xrBg/watch",
+      slides: "https://canva.link/qvukczrdsnhcsir"
+    }
+
+  },
+
+  {
+    id: 3,
 
     title: "Sustainability Compliance Chatbot",
 
@@ -48,66 +77,57 @@ const projects = [
     date: "2025",
 
     description:
-      "AI chatbot helping small businesses understand sustainability regulations.",
+      "AI chatbot helping small businesses understand and comply with sustainability regulations. Built using HTML & CSS to help businesses adopt eco-friendly practices and meet regulations. Suggestions drawn from Gemini API and a library of 50+ environmental regulations.",
 
     media: {
       type: "image",
-      src: "/projects/chatbot.png"
+      src: "/portfolio/bot.png"
     },
 
     tech: [
-      "Java",
-      "HTML",
-      "CSS",
+      "Java,",
+      "HTML,",
+      "CSS,",
       "Gemini API"
     ],
 
-    components: [
-      "AI Retrieval",
-      "Chat Interface",
-      "Regulation Database"
-    ],
 
     links: {
       github: "",
-      demo: "",
-      slides: ""
+      demo: "https://www.canva.com/design/DAGtWme7q_U/QkyNZESwlPZxRAmrCm5-QQ/view?utm_content=DAGtWme7q_U&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hf9d6ad41b5#4",
+      slides: "https://canva.link/1eqo9iuwf9fus1f"
     }
 
   },
 
 
   {
-    id: 3,
+    id: 4,
 
-    title: "Community Innovation Project",
+    title: "FERN: Fertilizer Excess Runoff Negation",
 
-    type: ["PM"],
+    type: ["SWE"],
 
     date: "2025",
 
     description:
-      "Product strategy project focused on solving community challenges.",
+      "Led a team of 3 to develop a Streamlit app modeling fertilizer diffusion to mitigate eutrophication, using a random forest regression model and the Advection-Diffusion-Reaction equation to generate interactive soil management charts for farmers",
 
     media: {
       type: "image",
-      src: "/projects/project.png"
+      src: "/portfolio/fern.png"
     },
 
     tech: [
-      "Research",
-      "Strategy"
+      "StreamLit,",
+      "GitHub"
     ],
 
-    components: [
-      "User Research",
-      "Product Roadmap"
-    ],
 
     links: {
-      github: "",
-      demo: "",
-      slides: ""
+      demo: "https://www.canva.com/design/DAGeebcDhSc/T1uhFzll1UFc-7kgsNTfPg/view?utm_content=DAGeebcDhSc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb2b9a0121e#11",
+      github: "https://github.com/sragvig/fertilizer-spread-model",
+      slides: "https://canva.link/n1xv16imarpe7uw"
     }
 
   }

@@ -7,7 +7,7 @@ function ExperienceCard({ experience }) {
       rounded-3xl
       border border-white/10
       bg-white/5
-      p-6
+      p-5
     ">
 
 
@@ -48,7 +48,7 @@ function ExperienceCard({ experience }) {
 
 
 
-      <div className="flex gap-3 mt-6">
+      <div className="flex gap-3 mt-4">
 
 
         {
@@ -94,7 +94,7 @@ function ExperienceCard({ experience }) {
 
 
 
-      <p className="text-gray-500 mt-5">
+      <p className="text-gray-500 mt-3">
         {experience.dates}
       </p>
 
@@ -106,7 +106,7 @@ function ExperienceCard({ experience }) {
 
 
 
-      <p className="text-gray-300 mt-5 leading-relaxed">
+      <p className="text-gray-300 mt-3 leading-relaxed">
         {experience.summary}
       </p>
 
@@ -114,7 +114,7 @@ function ExperienceCard({ experience }) {
 
 
 
-      <div className="flex gap-3 mt-6">
+      <div className="flex gap-3 mt-4">
 
 
         {

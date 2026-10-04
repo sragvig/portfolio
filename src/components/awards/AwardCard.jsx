@@ -27,7 +27,7 @@ function AwardCard({ award }) {
 
         className="
           w-full
-          h-55
+          h-40
           object-cover
         "
 
@@ -38,7 +38,7 @@ function AwardCard({ award }) {
       <div className="p-6">
 
 
-        <div className="flex flex-wrap gap-2">
+        <div className="flex flex-wrap gap-1">
 
 
           {
@@ -71,7 +71,7 @@ function AwardCard({ award }) {
 
 
 
-        <h2 className="text-xl font-semibold mt-4">
+        <h2 className="text-9xs font-semibold mt-3">
 
           {award.title}
 
@@ -79,7 +79,7 @@ function AwardCard({ award }) {
 
 
 
-        <p className="text-gray-500 mt-2">
+        <p className="text-gray-500 mt-1">
 
           {award.date}
 
@@ -114,7 +114,7 @@ function AwardCard({ award }) {
           open && (
 
             <p className="
-              mt-4
+              mt-2
               text-gray-300
               leading-relaxed
             ">
