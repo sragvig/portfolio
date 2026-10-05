@@ -8,7 +8,7 @@ const work = [
 
     type: ["SWE"],
 
-    status: "In Progress",
+    status: "Completed",
 
     dates: "June - August 2026",
 
@@ -36,9 +36,9 @@ const work = [
 
     type: ["SWE", "PM"],
 
-    status: "In Progress",
+    status: "Completed",
 
-    dates: "July 2026 - Present",
+    dates: "July - September 2026",
 
     location: "Remote",
 
@@ -48,7 +48,7 @@ const work = [
       "Used AI tools to analyze donor data and build donor matching recommendations for YouthBuild's fundraising strategy. Delivered findings via final client presentation, applying responsible AI practices under professional mentorship.",
 
     links: {
-      website: "https://www.logo.dev/search/brands/jpmorganchase.com",
+      website: "https://www.credential.net/7cb791d3-98bb-4008-977a-cd86ce50d8f6#acc.MnIvfVDK",
       github: "",
       demo: ""
     }
@@ -65,9 +65,9 @@ const work = [
 
     type: ["PM"],
 
-    status: "In Progress",
+    status: "Completed",
 
-    dates: "July 2026 - Present",
+    dates: "July - October 2026",
 
     location: "Remote",
 
@@ -96,7 +96,7 @@ const work = [
 
     status: "Completed",
 
-    dates: "June 2025 - July 2025",
+    dates: "June - July 2025",
 
     location: "Houston, Texas",
 
