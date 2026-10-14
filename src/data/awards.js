@@ -1,7 +1,29 @@
 const awards = [
 
+
   {
     id: 1,
+
+    title: "UH CodeRed Orion Hackathon: Best Use Of ElevenLabs",
+
+    date: "2026",
+
+    category: [
+      "Software",
+    ],
+
+    image: "/portfolio/codered.jpg",
+
+    details:
+      "Team recognized for creating First Line.",
+
+    link: "https://devpost.com/software/first-line?ref_content=my-projects-tab&ref_feature=my_projects"
+
+  },
+
+
+  {
+    id: 2,
 
     title: "Girl Scouts Gold Award",
 
@@ -23,7 +45,7 @@ const awards = [
 
 
   {
-    id: 2,
+    id: 3,
 
     title: "Fort Bend County Proclamation Award",
 
@@ -44,7 +66,7 @@ const awards = [
 
 
   {
-    id: 3,
+    id: 4,
 
     title: "The Contribution Project: $400 Winner",
 
@@ -57,14 +79,14 @@ const awards = [
     image: "/portfolio/contr.png",
 
     details:
-      "Academic recognition based on achievement in advanced placement coursework.",
+      "Award and grant recognition for ThisIsFine.",
 
     link: ""
 
   },
 
   {
-    id: 4,
+    id: 5,
 
     title: "GSUSA Gold Award Scholarship: $5,000",
 
@@ -78,14 +100,35 @@ const awards = [
     image: "/portfolio/gsusa.png",
 
     details:
-      "Academic recognition based on achievement in advanced placement coursework.",
+      "Recognition for ThisIsFine Gold Award achievement and story.",
 
     link: ""
 
   },
 
   {
-    id: 5,
+    id: 6,
+
+    title: "VIP Women in Technology Scholarship: $1,250",
+
+    date: "2026",
+
+    category: [
+      "Community",
+      "Scholarship"
+    ],
+
+    image: "/portfolio/vip.png",
+
+    details:
+      "Recognition for technology achievements and story.",
+
+    link: ""
+
+  },
+
+  {
+    id: 7,
 
     title: "GSSJC Emerald Circle Scholarship: $1,000",
 
@@ -99,14 +142,14 @@ const awards = [
     image: "/portfolio/emerald.png",
 
     details:
-      "Academic recognition based on achievement in advanced placement coursework.",
+      "Recognition for ThisIsFine Gold Award achievement and story.",
 
     link: ""
 
   },
 
   {
-    id: 6,
+    id: 8,
 
     title: "NCWIT Aspirations in Computing Regional Affiliate Award",
 
@@ -120,7 +163,7 @@ const awards = [
     image: "/portfolio/ncwit.png",
 
     details:
-      "Academic recognition based on achievement in advanced placement coursework.",
+      "Recognition for technology achievements and story.",
 
     link: ""
 

@@ -17,7 +17,21 @@ function ProjectCard({ project }) {
     >
       {/* Media */}
       <div className="w-80 flex-shrink-0">
-        {project.media.type === "image" && (
+        {project.media.type === "video" ? (
+          <video
+            src={project.media.src}
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="
+              w-full
+              h-56
+              object-cover
+              rounded-2xl
+            "
+          />
+        ) : (
           <img
             src={project.media.src}
             alt={project.title}
@@ -66,24 +80,22 @@ function ProjectCard({ project }) {
 
         {/* Tech Stack */}
         <div className="flex flex-wrap items-center gap-2 mt-8">
-        <h3 className="font-medium">
+          <h3 className="font-medium">
             Tech Stack:
-        </h3>
+          </h3>
 
-        {project.tech.map((item) => (
+          {project.tech.map((item) => (
             <span
-            key={item}
-            className="text-sm text-gray-400"
+              key={item}
+              className="text-sm text-gray-400"
             >
-            {item}
+              {item}
             </span>
-        ))}
+          ))}
         </div>
-
 
         {/* Links */}
         <div className="flex gap-3 mt-4">
-
           {project.links.github && (
             <a
               href={project.links.github}
@@ -124,6 +136,29 @@ function ProjectCard({ project }) {
             >
               <span className="flex items-center gap-2">
                 Demo
+                <ExternalLink size={16} />
+              </span>
+            </a>
+          )}
+
+          {project.links.devpost && (
+            <a
+              href={project.links.devpost}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="
+                px-5
+                py-2
+                rounded-full
+                border
+                border-white/20
+                hover:bg-white
+                hover:text-black
+                transition
+              "
+            >
+              <span className="flex items-center gap-2">
+                DevPost
                 <ExternalLink size={16} />
               </span>
             </a>

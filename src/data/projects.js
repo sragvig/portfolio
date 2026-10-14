@@ -3,6 +3,51 @@ const projects = [
   {
     id: 1,
 
+    title: "First Line",
+
+    type: ["SWE", "PM"],
+
+    date: "October 2026",
+
+    description:
+      "A full-stack voice simulator made for emergency crisis line volunteers to practice handling distressing situations with AI callers.",
+
+    media: {
+      type: "video",
+      src: "/portfolio/FirstLine.mov"
+    },
+
+    tech: [
+      "ElevenLabs,",
+      "React,",
+      "TypeScript,",
+      "Node.js/Express,",
+      "PostgreSQL,",
+      "Render,",
+      "Tiger Data,",
+      "Backboard,",
+      "Gemini"
+    ],
+
+    links: {
+      demo: "https://www.youtube.com/watch?v=HUxstGV2QZM",
+      github: "https://github.com/scoot-skoot/First-Line",
+      devpost: "https://devpost.com/software/first-line?ref_content=my-projects-tab&ref_feature=my_projects",
+      slides: ""
+    },
+
+    hackathon: {
+      name: "UH CodeRed Orion 2026",
+      date: "October 10-11, 2026",
+      award: "Best Use of ElevenLabs",
+      teamMembers: ["Sragvi Gireesh", "David A."]
+    }
+
+  },
+
+  {
+    id: 2,
+
     title: "ThisIsFine: A Disaster Preparedness Game",
 
     type: ["SWE", "PM"],
@@ -33,7 +78,7 @@ const projects = [
   },
 
   {
-    id: 2,
+    id: 3,
 
     title: "Robo-Advisor",
 
@@ -68,7 +113,7 @@ const projects = [
   },
 
   {
-    id: 3,
+    id: 4,
 
     title: "Sustainability Compliance Chatbot",
 
@@ -102,7 +147,7 @@ const projects = [
 
 
   {
-    id: 4,
+    id: 5,
 
     title: "FERN: Fertilizer Excess Runoff Negation",
 

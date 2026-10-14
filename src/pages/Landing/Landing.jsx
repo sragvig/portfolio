@@ -103,7 +103,9 @@ function Landing() {
             frontend, product, etc.
           </p>
 
-
+          <p className="mt-3 text-xs text-gray-500 tracking-wide">
+            Last updated: October 14, 2026
+          </p>
 
           {/* Buttons */}
           <div className="flex gap-4 mt-10">
